@@ -21,16 +21,13 @@ Use `~/.local/bin/gh-token <owner>` to get an installation token. The `/github` 
 
 ## Setting up on a new system
 
-```bash
-git clone https://github.com/albertpurnama/zin ~/Documents/dev/zin
-cd ~/Documents/dev/zin
-./setup.sh
-```
+See `README.md` for the full fresh-install bootstrap (credentials must be placed manually first, then clone, then install).
 
-`setup.sh` will:
-1. Install `gh-token` to `~/.local/bin/`
-2. Symlink skills into `~/.claude/skills/`
-3. Print instructions for placing GitHub App credentials
+```bash
+cd ~/Documents/dev/zin
+make install   # installs gh-token and links all skills
+make check     # verify everything is wired up
+```
 
 ## Cloning private repos
 
