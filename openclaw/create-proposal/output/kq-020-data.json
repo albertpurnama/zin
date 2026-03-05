@@ -1,0 +1,44 @@
+{
+  "nomor": "KQ-020/QUO-KBI/I/2026",
+  "tanggal": "Samboja, 29 Januari 2026",
+  "kepada": "PT. Budi Bakti Prima\nUp. Bpk. Jupran",
+  "lokasi_proyek": "Mahakam Ulu, Samarinda",
+  "alat": "Crane + Hammer Diesel + Bored Pile Machine",
+  "items": [
+    {
+      "no": 1,
+      "deskripsi": "Jasa Pemancangan Ø1100",
+      "sub_items": [
+        {"deskripsi": "a. Pancang (Min. Charge 1000m)", "qty": 1000, "satuan": "m¹", "harga_satuan": 800000},
+        {"deskripsi": "b. Joint Las", "qty": 1, "satuan": "Joint", "harga_satuan": 1000000, "rate_only": true},
+        {"deskripsi": "c. Jasa Pemotongan Pipa", "qty": 1, "satuan": "Potongan", "harga_satuan": 1000000, "rate_only": true},
+        {"deskripsi": "d. Handling", "qty": 1, "satuan": "m¹", "harga_satuan": 70000, "rate_only": true}
+      ]
+    },
+    {
+      "no": 2,
+      "deskripsi": "Jasa Pengeboran Ø1000",
+      "sub_items": [
+        {"deskripsi": "a. Pengeboran (Min. Charge 1000m)", "qty": 1000, "satuan": "m¹", "harga_satuan": 1500000},
+        {"deskripsi": "b. Jasa Pembesian", "qty": 1, "satuan": "Kg", "harga_satuan": 4500, "rate_only": true},
+        {"deskripsi": "c. Jasa Pengecoran", "qty": 1, "satuan": "m³", "harga_satuan": 250000, "rate_only": true}
+      ]
+    },
+    {"no": 3, "deskripsi": "Persiapan", "qty": 1, "satuan": "Ls", "harga_satuan": 100000000},
+    {"no": 4, "deskripsi": "Mobilisasi & Demobilisasi", "qty": 1, "satuan": "Ls", "harga_satuan": 250000000}
+  ],
+  "keterangan": [
+    "Harga satuan belum termasuk PPN 12% dan harga sudah termasuk PPH.",
+    "Pekerjaan dilaksanakan di atas sungai. Kapal Ponton/Tongkang dan Tugboat disediakan oleh kontraktor.",
+    "Apabila dalam pelaksanaan pengeboran ditemukan lapisan batuan, maka akan dikenakan biaya pengeboran batu sebesar 2 (dua) kali lipat dari harga satuan pengeboran tanah.",
+    "Apabila ada mobilisasi lokal maka akan ada perhitungan mobilisasi kembali.",
+    "Keamanan alat menjadi tanggung jawab pemberi kerja.",
+    "Apabila di area kerja ada crossing pipa menjadi tanggung jawab pemberi kerja.",
+    "Jasa buang lumpur dan dump truck oleh pemberi kerja.",
+    "Apabila terjadi kelongsoran dan harus menggunakan polymer, disiapkan oleh pemberi kerja.",
+    "Biaya Standby akibat kegiatan proyek, lahan dan material belum siap oleh pemberi kerja, menunggu titik dikenakan charge sebesar Rp. 7.500.000,- (Tujuh Juta Lima Ratus Ribu Rupiah) per hari per mesin.",
+    "Sistem Pembayaran:<br>&nbsp;&nbsp;&nbsp;&nbsp;- Biaya Mobilisasi/Demobilisasi dibayar lunas (100%) sebelum unit dimobilisasi.<br>&nbsp;&nbsp;&nbsp;&nbsp;- Pembayaran Termin 1 diawal sebesar 30%.<br>&nbsp;&nbsp;&nbsp;&nbsp;- Jika Pekerjaan telah dicapai 80% maka akan ditagihkan pelunasan (100%)",
+    "Harga tidak terikat, sewaktu-waktu dapat berubah tanpa ada pemberitahuan."
+  ],
+  "direktur_name": "ARIANTO GAN"
+}

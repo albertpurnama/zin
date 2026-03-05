@@ -1,0 +1,26 @@
+{
+  "nomor": "KPI-002/PROINV/II/2026",
+  "tanggal": "14 Februari 2026",
+  "kepada": "Bpk. Salim Al Jufri",
+  "items": [
+    {
+      "no": 1,
+      "deskripsi": "Sewa Crane",
+      "qty": 2,
+      "satuan": "200 jam / 30 hari",
+      "harga_satuan": 200000000
+    },
+    {
+      "no": 2,
+      "deskripsi": "Mobilisasi dan Demobilisasi Alat Crane",
+      "qty": 1,
+      "satuan": "Ls",
+      "harga_satuan": 200000000
+    }
+  ],
+  "keterangan": [
+    "Pembayaran dapat ditransfer melalui rekening:",
+    "Bank BCA acc/no : 7815 59778 8 an. PT. KONSTRUKSI BORNEO INDONESIA"
+  ],
+  "direktur_name": "ARIANTO GAN"
+}

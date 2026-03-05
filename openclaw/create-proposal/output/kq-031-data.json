@@ -1,0 +1,36 @@
+{
+  "nomor": "KQ-031/QUO-KBI/II/2026",
+  "tanggal": "Samboja, 6 Februari 2026",
+  "kepada": "PT. Lancarjaya Mandiri Abadi",
+  "lokasi_proyek": "Jembatan Hambur Batu",
+  "alat": "Bored Pile Machine",
+  "items": [
+    {
+      "no": 1,
+      "deskripsi": "Bore Pile Dia 500mm",
+      "sub_items": [
+        {"deskripsi": "a. Jasa Pengeboran Tanpa Casing (52,5m) - Min. Charge 800m", "qty": 800, "satuan": "m¹", "harga_satuan": 500000},
+        {"deskripsi": "b. Jasa Pengeboran Dengan Casing (92,5m)", "qty": 1, "satuan": "-", "harga_satuan": 800000, "rate_only": true, "jumlah_text": "Termasuk dalam Min. Charge"},
+        {"deskripsi": "c. Jasa Pembesian", "qty": 1, "satuan": "Kg", "harga_satuan": 3500, "rate_only": true},
+        {"deskripsi": "d. Jasa Pengecoran", "qty": 145, "satuan": "m¹", "harga_satuan": 150000},
+        {"deskripsi": "e. Mobilisasi dan Demobilisasi Alat", "qty": 1, "satuan": "Ls", "harga_satuan": 150000000},
+        {"deskripsi": "f. Persiapan", "qty": 1, "satuan": "Ls", "harga_satuan": 50000000}
+      ]
+    }
+  ],
+  "hide_totals": false,
+  "keterangan": [
+    "Harga satuan belum termasuk PPN 12% dan harga sudah termasuk PPH.",
+    "Jasa pengeboran dikenakan minimum charge 800 (delapan ratus) meter, berlaku untuk pengeboran tanpa casing maupun dengan casing. Apabila total volume pekerjaan tidak mencapai 800 meter, maka akan tetap dihitung sebesar 800 meter x Rp. 500.000,- (Lima Ratus Ribu Rupiah).",
+    "Keamanan alat menjadi tanggung jawab pemberi kerja.",
+    "Apabila dalam pelaksanaan pengeboran ditemukan lapisan batuan, maka akan dikenakan biaya pengeboran batu sebesar 2 (dua) kali lipat dari harga satuan pengeboran tanah.",
+    "Apabila ada mobilisasi lokal maka akan ada perhitungan mobilisasi kembali.",
+    "Apabila di area kerja ada crossing pipa menjadi tanggung jawab pemberi kerja.",
+    "Jasa buang lumpur dan dump truck oleh pemberi kerja.",
+    "Apabila terjadi kelongsoran dan harus menggunakan polymer, disiapkan oleh pemberi kerja.",
+    "Biaya Standby akibat kegiatan proyek, lahan dan material belum siap oleh pemberi kerja, menunggu titik dikenakan charge sebesar Rp. 7.500.000,- (Tujuh Juta Lima Ratus Ribu Rupiah) per hari per mesin.",
+    "Sistem Pembayaran:<br>&nbsp;&nbsp;&nbsp;&nbsp;- Biaya Mobilisasi/Demobilisasi dibayar lunas (100%) sebelum unit dimobilisasi.<br>&nbsp;&nbsp;&nbsp;&nbsp;- Pembayaran Termin 1 diawal sebesar 30%.<br>&nbsp;&nbsp;&nbsp;&nbsp;- Jika Pekerjaan telah dicapai 80% maka akan ditagihkan pelunasan (100%)",
+    "Harga tidak terikat, sewaktu-waktu dapat berubah tanpa ada pemberitahuan."
+  ],
+  "direktur_name": "ARIANTO GAN"
+}

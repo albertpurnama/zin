@@ -1,0 +1,46 @@
+{
+  "nomor": "KQ-027/QUO-KBI/II/2026",
+  "tanggal": "Samboja, 3 Februari 2026",
+  "kepada": "PT Wijaya Karya (Persero) Tbk.\nUp. Bpk. Muhammad Arin",
+  "lokasi_proyek": "Provision of Muara Wahau Road Re Diversion Construction (Re MWRD) di PT. Kaltim Prima Coal",
+  "alat": "Pile Driving Machine & Bored Pile Machine",
+  "items": [
+    {
+      "no": 1,
+      "deskripsi": "Minipile Ukuran 20 x 20 x 6m",
+      "sub_items": [
+        {"deskripsi": "a. Jasa Pemancangan", "qty": 25650, "satuan": "m¹", "harga_satuan": 75000},
+        {"deskripsi": "b. Handling", "qty": 25650, "satuan": "m¹", "harga_satuan": 5000},
+        {"deskripsi": "c. Joint Las", "qty": 1, "satuan": "Titik", "harga_satuan": 35000, "rate_only": true},
+        {"deskripsi": "d. Mobilisasi dan Demobilisasi Alat", "qty": 2, "satuan": "Ls", "harga_satuan": 105000000},
+        {"deskripsi": "e. Persiapan", "qty": 1, "satuan": "Ls", "harga_satuan": 30000000}
+      ]
+    },
+    {
+      "no": 2,
+      "deskripsi": "Bore Pile Dia 800mm",
+      "sub_items": [
+        {"deskripsi": "a. Jasa Pengeboran", "qty": 915, "satuan": "m¹", "harga_satuan": 750000},
+        {"deskripsi": "b. Jasa Pembesian", "qty": 69357.6, "satuan": "Kg", "harga_satuan": 2000},
+        {"deskripsi": "c. Jasa Pengecoran", "qty": 460.05, "satuan": "m³", "harga_satuan": 100000},
+        {"deskripsi": "d. Mobilisasi dan Demobilisasi Alat", "qty": 1, "satuan": "Ls", "harga_satuan": 125000000},
+        {"deskripsi": "e. Persiapan", "qty": 1, "satuan": "Ls", "harga_satuan": 50000000}
+      ]
+    }
+  ],
+  "hide_totals": false,
+  "keterangan": [
+    "Harga satuan belum termasuk PPN 12% dan harga sudah termasuk PPH.",
+    "Keamanan alat menjadi tanggung jawab pemberi kerja.",
+    "Jasa pemancangan dihitung berdasarkan tiang terangkat perkelipatan.",
+    "Apabila dalam pelaksanaan pengeboran ditemukan lapisan batuan, maka akan dikenakan biaya pengeboran batu sebesar 2 (dua) kali lipat dari harga satuan pengeboran tanah.",
+    "Apabila ada mobilisasi lokal maka akan ada perhitungan mobilisasi kembali.",
+    "Apabila di area kerja ada crossing pipa menjadi tanggung jawab pemberi kerja.",
+    "Jasa buang lumpur dan dump truck oleh pemberi kerja.",
+    "Apabila terjadi kelongsoran dan harus menggunakan polymer, disiapkan oleh pemberi kerja.",
+    "Biaya Standby akibat kegiatan proyek, lahan dan material belum siap oleh pemberi kerja, menunggu titik dikenakan charge sebesar Rp. 7.500.000,- (Tujuh Juta Lima Ratus Ribu Rupiah) per hari per mesin.",
+    "Sistem Pembayaran:<br>&nbsp;&nbsp;&nbsp;&nbsp;- Biaya Mobilisasi/Demobilisasi dibayar lunas (100%) sebelum unit dimobilisasi.<br>&nbsp;&nbsp;&nbsp;&nbsp;- Pembayaran Termin 1 diawal sebesar 30%.<br>&nbsp;&nbsp;&nbsp;&nbsp;- Jika Pekerjaan telah dicapai 80% maka akan ditagihkan pelunasan (100%)",
+    "Harga tidak terikat, sewaktu-waktu dapat berubah tanpa ada pemberitahuan."
+  ],
+  "direktur_name": "ARIANTO GAN"
+}

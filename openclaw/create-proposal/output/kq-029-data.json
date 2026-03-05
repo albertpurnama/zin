@@ -1,0 +1,47 @@
+{
+  "nomor": "KPI-002/QUO-KBI/II/2026",
+  "tanggal": "Samboja, 4 Februari 2026",
+  "kepada": "PT Banti Indonesia\nUp. Bpk. Budi",
+  "lokasi_proyek": "Smelter Nikel PT. Mitra Murni Perkasa (MMP), Kariangau",
+  "alat": "Crane",
+  "pekerjaan": "Sewa Alat Berat",
+  "has_masa_sewa": true,
+  "items": [
+    {
+      "no": 1,
+      "deskripsi": "Sewa Sany Crawler Crane 30 Ton",
+      "qty": 1,
+      "satuan": "Unit",
+      "masa_sewa": "200 jam / 30 hari",
+      "harga_satuan": 100000000
+    },
+    {
+      "no": 2,
+      "deskripsi": "Sewa Crane Kobelco 7055 55 Ton",
+      "qty": 2,
+      "satuan": "Unit",
+      "masa_sewa": "200 jam / 30 hari",
+      "harga_satuan": 135000000
+    },
+    {
+      "no": 3,
+      "deskripsi": "Mobilisasi dan Demobilisasi Alat Crane",
+      "qty": 1,
+      "satuan": "Ls",
+      "masa_sewa": "-",
+      "harga_satuan": 200000000
+    }
+  ],
+  "hide_totals": false,
+  "keterangan": [
+    "Harga satuan belum termasuk PPN 12% dan harga sudah termasuk PPH.",
+    "Uang makan Rp. 200.000,-/hari per set alat (1 Operator + 1 Helper).",
+    "Biaya Mobilisasi dan Demobilisasi sudah termasuk dalam penawaran.",
+    "Masa sewa dihitung 200 jam atau 30 hari, tergantung mana yang tercapai terlebih dahulu.",
+    "Jam kerja berdasarkan time sheet operator.",
+    "Keamanan alat menjadi tanggung jawab pemberi kerja.",
+    "Sistem Pembayaran:<br>&nbsp;&nbsp;&nbsp;&nbsp;- Biaya Mobilisasi/Demobilisasi dibayar lunas (100%) sebelum unit dimobilisasi.<br>&nbsp;&nbsp;&nbsp;&nbsp;- Pembayaran sewa dilakukan di awal periode sewa.",
+    "Harga tidak terikat, sewaktu-waktu dapat berubah tanpa ada pemberitahuan."
+  ],
+  "direktur_name": "ARIANTO GAN"
+}

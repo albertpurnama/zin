@@ -1,10 +1,33 @@
-# zin — Claude's home base
+# agent-skills — AI Agent Skills Hub
 
-Skills, helpers, and setup for a fully configured Claude Code environment.
+A centralized repository for skills, helpers, and setup across all AI agents.
+
+## Structure
+
+| Directory | Runtime | Description |
+|-----------|---------|-------------|
+| `.claude/` | Claude Code | Skills and config for Claude |
+| `openclaw/` | OpenClaw | Skills for OpenClaw agents |
+
+## Skills
+
+### OpenClaw
+
+| Skill | Description |
+|-------|-------------|
+| `agentmail/` | Email inbox management via AgentMail API |
+| `create-proposal/` | Indonesian construction quotation PDFs |
+| `gemini-image-gen/` | Image generation via Google's Gemini API |
+
+### Claude
+
+| Skill | Description |
+|-------|-------------|
+| `github/` | Authenticated GitHub operations |
 
 ---
 
-## Fresh install (no GitHub access yet)
+## Claude Setup (Fresh Install)
 
 On a new system, credentials aren't set up yet so you can't use the normal
 clone flow. Bootstrap manually:
@@ -53,13 +76,13 @@ TOKEN=$(curl -s -X POST \
   https://api.github.com/app/installations/$INSTALL_ID/access_tokens \
   | python3 -c "import sys,json; print(json.load(sys.stdin)['token'])")
 
-git clone https://x-access-token:$TOKEN@github.com/albertpurnama/zin ~/Documents/dev/zin
+git clone https://x-access-token:$TOKEN@github.com/albertpurnama/agent-skills ~/agent-skills
 ```
 
 ### 3. Install
 
 ```bash
-cd ~/Documents/dev/zin
+cd ~/agent-skills
 make install
 ```
 
@@ -75,15 +98,6 @@ make uninstall  # remove installed files
 
 ---
 
-## What gets installed
-
-| Item | Destination | Purpose |
-|------|-------------|---------|
-| `gh-token` | `~/.local/bin/gh-token` | Generate GitHub App installation tokens |
-| `/github` skill | `~/.claude/skills/github/` | Authenticated GitHub ops inside Claude |
-
----
-
 ## Using the /github skill in Claude
 
 Once installed, Claude can perform authenticated GitHub operations:
@@ -92,3 +106,12 @@ Once installed, Claude can perform authenticated GitHub operations:
 - *"push my changes to origin"*
 - *"create a PR for this branch"*
 - *"list open issues on owner/repo"*
+
+---
+
+## Contributing Skills
+
+1. Add your skill to the appropriate runtime directory
+2. Include a `SKILL.md` with description and usage
+3. Update the table above
+4. Submit a PR or push directly

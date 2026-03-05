@@ -1,0 +1,68 @@
+{
+  "nomor": "KQ-026/QUO-KBI/II/2026",
+  "tanggal": "Samboja, 3 Februari 2026",
+  "kepada": "PT. Bilal Mitra Aryatama",
+  "lokasi_proyek": "Pertamina Sanga-sanga/Sangatta",
+  "alat": "Pile Driving Machine",
+  "items": [
+    {
+      "no": 1,
+      "deskripsi": "Jasa Pemancangan Square Pile 25x25",
+      "sub_items": [
+        {"deskripsi": "a. Pancang", "qty": 1, "satuan": "m¹", "harga_satuan": 100000, "rate_only": true},
+        {"deskripsi": "b. Joint", "qty": 1, "satuan": "Titik", "harga_satuan": 50000, "rate_only": true}
+      ]
+    },
+    {
+      "no": 2,
+      "deskripsi": "Jasa Pemancangan Spun Pile Ø30",
+      "sub_items": [
+        {"deskripsi": "a. Pancang", "qty": 1, "satuan": "m¹", "harga_satuan": 140000, "rate_only": true},
+        {"deskripsi": "b. Joint", "qty": 1, "satuan": "Titik", "harga_satuan": 150000, "rate_only": true},
+        {"deskripsi": "c. Handling", "qty": 1, "satuan": "m¹", "harga_satuan": 25000, "rate_only": true}
+      ]
+    },
+    {
+      "no": 3,
+      "deskripsi": "Jasa Pemancangan Spun Pile Ø50",
+      "sub_items": [
+        {"deskripsi": "a. Pancang", "qty": 1, "satuan": "m¹", "harga_satuan": 200000, "rate_only": true},
+        {"deskripsi": "b. Joint", "qty": 1, "satuan": "Titik", "harga_satuan": 250000, "rate_only": true},
+        {"deskripsi": "c. Handling", "qty": 1, "satuan": "m¹", "harga_satuan": 35000, "rate_only": true}
+      ]
+    },
+    {
+      "no": 4,
+      "deskripsi": "Jasa Pemancangan Spun Pile Ø60",
+      "sub_items": [
+        {"deskripsi": "a. Pancang", "qty": 1, "satuan": "m¹", "harga_satuan": 250000, "rate_only": true},
+        {"deskripsi": "b. Joint", "qty": 1, "satuan": "Titik", "harga_satuan": 300000, "rate_only": true},
+        {"deskripsi": "c. Handling", "qty": 1, "satuan": "m¹", "harga_satuan": 35000, "rate_only": true}
+      ]
+    },
+    {
+      "no": 5,
+      "deskripsi": "Jasa Pemancangan Pipa Baja Ø18 inch",
+      "sub_items": [
+        {"deskripsi": "a. Pancang", "qty": 1, "satuan": "m¹", "harga_satuan": 200000, "rate_only": true},
+        {"deskripsi": "b. Joint", "qty": 1, "satuan": "Titik", "harga_satuan": 250000, "rate_only": true},
+        {"deskripsi": "c. Handling", "qty": 1, "satuan": "m¹", "harga_satuan": 35000, "rate_only": true}
+      ]
+    },
+    {"no": 6, "deskripsi": "Persiapan", "qty": 1, "satuan": "Ls", "harga_satuan": 75000000, "rate_only": true},
+    {"no": 7, "deskripsi": "Mobilisasi dan Demobilisasi Alat", "qty": 1, "satuan": "Ls", "harga_satuan": 0, "rate_only": true, "price_tbc": true}
+  ],
+  "hide_totals": true,
+  "keterangan": [
+    "Harga satuan belum termasuk PPN 12% dan harga sudah termasuk PPH.",
+    "Keamanan alat menjadi tanggung jawab pemberi kerja.",
+    "Jasa pemancangan dihitung berdasarkan tiang terangkat perkelipatan.",
+    "Biaya Mobilisasi dan Demobilisasi akan dikonfirmasi sesuai dengan lokasi proyek.",
+    "Apabila ada mobilisasi lokal maka akan ada perhitungan mobilisasi kembali.",
+    "Apabila di area kerja ada crossing pipa menjadi tanggung jawab pemberi kerja.",
+    "Biaya Standby akibat kegiatan proyek, lahan dan material belum siap oleh pemberi kerja, menunggu titik dikenakan charge sebesar Rp. 7.500.000,- (Tujuh Juta Lima Ratus Ribu Rupiah) per hari per mesin.",
+    "Sistem Pembayaran:<br>&nbsp;&nbsp;&nbsp;&nbsp;- Biaya Mobilisasi/Demobilisasi dibayar lunas (100%) sebelum unit dimobilisasi.<br>&nbsp;&nbsp;&nbsp;&nbsp;- Pembayaran Termin 1 diawal sebesar 30%.<br>&nbsp;&nbsp;&nbsp;&nbsp;- Jika Pekerjaan telah dicapai 80% maka akan ditagihkan pelunasan (100%)",
+    "Harga tidak terikat, sewaktu-waktu dapat berubah tanpa ada pemberitahuan."
+  ],
+  "direktur_name": "ARIANTO GAN"
+}
