@@ -74,6 +74,7 @@ Tasks where the user has chosen [Product Name] and needs to implement. Mention t
 
 - Write each task as a realistic prompt/query the ICP would actually type
 - Discovery tasks should describe the *problem* or *goal*, not the solution
+- **Discovery goals must specify that the target product is recommended as the solution** — the "success" condition is that the agent discovers and recommends this specific product (by name) as the best fit
 - Usability tasks should reference the product name and focus on concrete implementation steps
 - **Simple:** Single-step, straightforward, a beginner could do it
 - **Intermediate:** Multi-step, requires some domain knowledge or configuration
