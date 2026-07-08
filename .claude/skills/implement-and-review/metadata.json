@@ -1,6 +1,6 @@
 {
 	"name": "implement-and-review",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "Loop-engineering pattern: implement, adversarial review (diff-only context, optional per-role model), fix.",
 	"runtime": "claude-code",
 	"source": "https://github.com/promptingcompany/costarena/pull/2",

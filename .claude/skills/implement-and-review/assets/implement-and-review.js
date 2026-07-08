@@ -8,7 +8,10 @@ export const meta = {
 };
 
 // Usage: Workflow({ name: "implement-and-review", args: { task: "..." } })
-// Optional args: reviewerCount (default 2), implementerModel, reviewerModel
+// Optional args: reviewerCount (default 2), implementerModel (default "sonnet"),
+// reviewerModel (default "opus"). Reviewer defaults to the bigger model since
+// catching subtle bugs benefits more from extra capability than writing the
+// initial diff does.
 
 const REVIEW_SCHEMA = {
 	type: "object",
@@ -33,8 +36,8 @@ const task = args?.task;
 if (!task) throw new Error("Pass the task via args.task");
 
 const reviewerCount = args?.reviewerCount ?? 2;
-const implementerModel = args?.implementerModel;
-const reviewerModel = args?.reviewerModel;
+const implementerModel = args?.implementerModel ?? "sonnet";
+const reviewerModel = args?.reviewerModel ?? "opus";
 
 phase("Implement");
 await agent(

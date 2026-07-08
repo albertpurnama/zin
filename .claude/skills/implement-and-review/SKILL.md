@@ -38,10 +38,12 @@ Once opted in:
      `Workflow({ script, args })`.
 
 2. Required: `args.task` — plain description of what to implement.
-   Optional: `args.reviewerCount` (default 2), `args.implementerModel`,
-   `args.reviewerModel` — set implementer/reviewer to different models for
-   genuinely diverse failure-mode coverage instead of same-model reviewers
-   sharing blind spots.
+   Optional: `args.reviewerCount` (default 2), `args.implementerModel`
+   (default `"sonnet"`), `args.reviewerModel` (default `"opus"`). The reviewer
+   defaults to the bigger model on purpose: writing a straightforward diff is
+   cheap work, but catching the subtle bugs a reviewer is supposed to find
+   benefits more from extra capability, so the stronger model earns its keep
+   on the harder side of the loop.
 
 ## What the workflow does
 
@@ -59,8 +61,9 @@ Once opted in:
 - The original Bun rewrite used one model (a pre-release Fable 5) for every
   role — the adversarial effect came purely from withholding the
   implementer's reasoning from reviewers, not from model diversity. This
-  script adds optional per-role model overrides as an extension beyond what
-  the article describes.
+  script adds optional per-role model overrides, and defaults them
+  asymmetrically (bigger model on review) as an extension beyond what the
+  article describes.
 - Source PR that introduced this workflow:
   https://github.com/promptingcompany/costarena/pull/2
 
