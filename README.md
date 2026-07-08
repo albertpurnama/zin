@@ -24,6 +24,7 @@ A centralized repository for skills, helpers, and setup across all AI agents.
 | Skill | Description |
 |-------|-------------|
 | `github/` | Authenticated GitHub operations |
+| `implement-and-review/` | Loop-engineering pattern: implement → adversarial review (diff-only context, optional per-role model) → fix, via the Workflow tool. See [bun.com/blog/bun-in-rust](https://bun.com/blog/bun-in-rust#loops-that-write-review-code). |
 
 ---
 
